@@ -1,59 +1,200 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Project: Recipe book</title>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
         <style>
+        .titles{
+            color:rgb(235, 124, 44);
+        }
         body{
-            background-image:url("https://upload.wikimedia.org/wikipedia/commons/9/93/Website_Coding.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed; 
-            background-size: cover;
-            color:rgb(194, 191, 207);
-            text-align:center;
-            line-height:15px;
-            font-style:italic;
-            font-size:15px;
-        }
-        a{
-            text-decoration:underline;
-            color:white;
-            font-family:"Comic Sans MS",fantasy;
-        }
-        h1,h2{
-            background-color:rgb(150, 18, 150);
-            font-family:fantasy;
-            font-weight:bold;
-        }
-        h3{
-            font-family:fantasy;
+            background-color:rgb(224, 18, 18);
+            font-family:"Comic Sans MS";
         }
         p{
-            font-family:"Comic Sans MS",fantasy;
+            color:white;
         }
+    
         </style>
     </head>
     <body>
-        <h1>Web Developing Overload</h1>
-        <hr>
-        <h2>About</h2>
-        <h3>What is web development?</h3>
-        <p>According to <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank">Wikipedia</a>,Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).</p>
-        <h3>Who am I?</h3>
-        <p>My name is Iulian Dimofte and I am a highschool student from Romania who just began to learn how to use HTML and CSS to make simple websites,but I hope that in the future I will make a career out of this hobby.</p>
-        <h3>Contents</h3>
+       
+        <h1 class="titles" id="up">Iulian's Recipe Book</h1>
+        
+        <h2 class="titles">Contents:</h2>
+        
+        <ol>
+            <li><a href="#first-recipe">Recipe #1:Pizza</a></li>
+            <li><a href="#second-recipe">Recipe #2:Scrambled eggs</a></li>
+            <li><a href="#third-recipe">Recipe #3:Pancakes</a></li>
+        </ol>
+        
+        <h2 class="titles"id="first-recipe">Recipe #1:Pizza</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Pizza_with_tomatoes.jpg/1920px-Pizza_with_tomatoes.jpg" alt="image of a pizza" width="300">
+        
         <ul>
-            <li><a href="#first-entry">First post</a></li>
-            <li><a href="#second-entry">Second post</a></li>
+            <li>Time: 1 hour</li>
+            <li>Serves: 16 people</li>
         </ul>
         
-        <h2 id="first-entry">First site ever created by me</h2>
-        <p>The first time I created a website using HTML , CSS and a little bit of Javascript was in my TIC class at school,2 years ago (in 9th grade) , but i didn't pay much attention at the time to it . I remember it was about Greek mythology(ancient Gods , fantastic creatures and myths) , it was a toppic interested me at that time . I just thought of it as a regular project for school , I didn't think that it could be a full time career , but now that I realised that it is a high-payed job I decided to pursue it.</p>
-        <p>I wish I still had that site just to look at in the future and see my progress , but I can't seem to find it anywhere , so I will see my progress from my Khan Academy profile.</p>
-        <h2 id="second-entry">Future?</h2>
-        <p>What I want to do in the future? First off , to develop my web programming skills and to continue my film photography hobby . Secondly , to sharpen my social skills , surround myself with positive people and win friends . Thirdly, to pass the Baccalaureate with grade 10 at all 3 subjects so that I can enter a good University in the Computer Science field , have a dorm seat for at least the first year and get the money reward for extremely good results at the national exam. </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Water</td>
+                <td>600mL</td>
+            </tr>
+            <tr>
+                <td>Sugar</td>
+                <td>1 teaspoon</td>
+            </tr>
+            <tr>
+                <td>Dry yeast</td>
+                <td>2 teaspoons</td>
+            </tr>
+            <tr>
+                <td>Flour</td>
+                <td>875g</td>
+            </tr>
+            <tr>
+                <td>Olive oil</td>
+                <td>6 tablespoons</td>
+            </tr>
+            <tr>
+                <td>Salt</td>
+                <td>1 teaspoon</td>
+            </tr>
+            </tbody>
+        </table>
         
+        <p><strong>Step 1:</strong>“Bloom” the yeast by sprinkling the sugar and yeast in the warm water. Let sit for 10 minutes, until bubbles form on the surface.
+</p>
+        <p><strong>Step 2:</strong>In a large bowl, combine the flour and salt. Make a well in the middle and add the olive oil and bloomed yeast mixture. Using a spoon, mix until a shaggy dough begins to form.</p>
+        <p><strong>Step 3:</strong>Once the flour is mostly hydrated, turn the dough out onto a clean work surface and knead for 10-15 minutes. The dough should be soft, smooth, and bouncy. Form the dough into a taut round.</p>
+        <p><strong>Step 4:</strong>Grease a clean, large bowl with olive oil and place the dough inside, turning to coat with the oil. Cover with plastic wrap. Let rise for at least an hour, or up to 24 hours.</p>
+        <p><strong>Step 5:</strong>Punch down the dough and turn it out onto a lightly floured work surface. Knead for another minute or so, then cut into 4 equal portions and shape into rounds.</p>
+        <p><strong>Step 6:</strong>Lightly flour the dough, then cover with a kitchen towel and let rest for another 30 minutes to an hour while you prepare the sauce and any other ingredients.</p>
+        <p><strong>Step 7:</strong>Preheat the oven as high as your oven will allow, between 450-500˚F (230-260˚C). Place a pizza stone, heavy baking sheet (turn upside down so the surface is flat), or cast iron skillet in the oven.</p>
+        <p><strong>Step 8:</strong>Meanwhile, make the tomato sauce: Add the salt to the can of tomatoes and puree with an immersion blender, or transfer to a blender or food processor, and puree until smooth.</p>
+        <p><strong>Step 9:</strong>Once the dough has rested, take a portion and start by poking the surface with your fingertips, until bubbles form and do not deflate.</p>
+        <p><strong>Step 10:</strong>Then, stretch and press the dough into a thin round. Make it thinner than you think it should be, as it will slightly shrink and puff up during baking.</p>
+        <p><strong>Step 11:</strong>Sprinkle semolina onto an upside down baking sheet and place the stretched crust onto it. Add the sauce and ingredients of your choice.</p>
+        <p><strong>Step 12:</strong>Slide the pizza onto the preheated pizza stone or pan. Bake for 15 minutes, or until the crust and cheese are golden brown.</p>
+    <p><em>Source: <a href="https://tasty.co/recipe?0=%2Fpizza-dough&slug=pizza-dough&canonicalUrl=https%3A%2F%2Ftasty.co" target="_blank">Tasty's pizza recipe</a></em></p>
+    
+    <h2 class="titles"id="second-recipe">Recipe #2:Scrambled eggs</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Scrambed_eggs.jpg" alt="image of a scrambled eggs" width="300">
         
+        <ul>
+            <li>Time: 30 minutes</li>
+            <li>Serves: 4 people</li>
+        </ul>
         
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Eggs</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Salt</td>
+                <td>1 teaspoon</td>
+            </tr>
+            <tr>
+                <td>Pepper</td>
+                <td>2 teaspoons</td>
+            </tr>
+            <tr>
+                <td>Butter</td>
+                <td>1 tablespoon</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong>In a bowl, whisk the eggs. Add salt and pepper to taste. Whisk to combine.</p>
+        <p><strong>Step 2:</strong>Add the butter to a nonstick skillet over medium heat. Once the butter has melted and begins to bubble, turn the heat to low, and add the eggs.</p>
+        <p><strong>Step 3:</strong>Using a spatula, gently push the eggs back and forth across the pan until they are cooked to your liking.</p>
+
+
+    <p><em>Source: <a href="https://tasty.co/recipe/simple-scrambled-eggs" target="_blank">Tasty's scrambled eggs recipe</a></em></p>
+    
+        <h2 class="titles" id="third-recipe">Recipe #3:Pancakes</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Blueberry_pancakes_%283%29.jpg" alt="image of pancakes" width="300">
+        
+        <ul>
+            <li>Time: 1 hour</li>
+            <li>Serves: 4 people</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Flour</td>
+                <td>310g</td>
+            </tr>
+            <tr>
+                <td>Sugar</td>
+                <td>3 tablespoons</td>
+            </tr>
+            <tr>
+                <td>Salt</td>
+                <td>2 teaspoons</td>
+            </tr>
+            <tr>
+                <td>Baking powder</td>
+                <td>1 teaspoon</td>
+            </tr>
+            <tr>
+                <td>Baking soda</td>
+                <td>1 teaspoon</td>
+            </tr>
+            <tr>
+                <td>Buttermilk</td>
+                <td>600mL</td>
+            </tr>
+            <tr>
+                <td>Butter</td>
+                <td>8 tablespoons</td>
+            </tr>
+            <tr>
+                <td>Eggs</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Blueberries</td>
+                <td>100g</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong>In a large bowl, add the flour, sugar, salt, baking powder, and baking soda and whisk to combine.</p>
+        <p><strong>Step 2:</strong>In a medium bowl or liquid measuring cup, add the buttermilk, melted butter, and egg yolks and whisk to combine.</p>
+        <p><strong>Step 3:</strong>Add the buttermilk mixture to the dry ingredients and gently fold with a rubber spatula until just combined.</p>
+        <p><strong>Step 4:</strong>Add the egg whites and fold until just combined. Be sure not to overmix. Some lumps are okay.</p>
+        <p><strong>Step 5:</strong>Let the batter rest for 15-30 minutes at room temperature.</p>
+        <p><strong>Step 6:</strong>Add the butter to a cast iron skillet and heat over medium low heat. Once the butter has melted and is bubbling, reduce the heat to medium-low and add ⅓ cup (75 g) of batter to the pan.</p>
+        <p><strong>Step 7:</strong>Cook for 2-3 minutes, until bubbles start to appear on the surface. If adding any toppings like chocolate chips or blueberries, sprinkle over the pancake. Flip the pancake over and cook for another 1-2 minutes, until golden brown. Repeat with the remaining batter.</p>
+
+    <p><em>Source: <a href="https://tasty.co/recipe/tasty-101-buttermilk-pancakes" target="_blank">Tasty's pancakes recipe</a></em></p>
+<h2><a href="#up">Go back up</a></h2>
     </body>
 </html>
+
